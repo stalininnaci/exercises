@@ -46,9 +46,9 @@ const readline = require('readline').createInterface({
  // });
 
  
- 
-     sum = 0, curr = 1;
-     for (i = 0; i < 5; i++) {
+     let n=5;
+     let sum = 0, curr = 1;
+     for (let i = 0; i < n; i++){
          sum += curr;
          curr += 2;
      }
