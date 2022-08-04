@@ -1,7 +1,7 @@
 let n=5;
 let str="";
-for(let i=n;i>0;i--){
-    for(let j=1;j<=i;j++){
+for(let i=1;i<=n;i++){
+    for(let j=i;j<=n;j++){
         str += j;
     }
         console.log(str);
